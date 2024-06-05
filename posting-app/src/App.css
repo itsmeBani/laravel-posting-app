@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+
+    background: black;
+    overflow-x: hidden;
+}
+
+.bg-image{
+
+
+    background: url("./assets/loginimage.png") no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+
+}
+.bg-icon{
+
+
+    background: url("./assets/loginimage.png") no-repeat center;
+    background-size: cover;
+
+}
+
+
+
+.formbg{
+
+    background: hsl(223 calc( 1 * 6.7%) 20.6% / 1);
+
+
+}
+.inputbox{
+background:#212121;
+
+}
+input[type=date]::placeholder {
+    color: transparent;
+    color:red;
+}
+   input[type="date"]::-webkit-calendar-picker-indicator {
+            filter: invert(1);
+
+
+        }
+        input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0; /* Optional - if you want to remove the margin as well */
+}
+.fontdisplay{
+    font-family:  'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;;
+
+}
+.scroll-container::-webkit-scrollbar {
+    height:20px;
+    width: 7px;
+
+    border-radius:10px;
+    /* Width of the scrollbar */
+}
+
+
+.scroll-container::-webkit-scrollbar-track {
+    background: transparent; /* Color of the track */
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+    background: #00e673;
+    border-radius:10px
+}
+
+
+@media (max-width: 768px) {
+  .max-w-md-w-full {
+   width:100%;
+  }
+
+}
+@media (max-width: 500px) {
+.hidden-md{
+display: none;
+}
+
+}

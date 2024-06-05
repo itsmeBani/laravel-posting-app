@@ -1,0 +1,16 @@
+Index: posting-app/tailwind.config.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/posting-app/tailwind.config.js b/posting-app/tailwind.config.js
+--- a/posting-app/tailwind.config.js	
++++ b/posting-app/tailwind.config.js	(date 1709603066577)
+@@ -4,7 +4,6 @@
+         "./index.html",
+         "./src/**/*.{js,ts,jsx,tsx}",
+     ],
+-    mode:process.env.NODE_ENV ?'jit':undefined,
+     theme: {
+         extend: {},
+     },
